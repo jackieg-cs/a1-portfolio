@@ -10,45 +10,54 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/10
-- */1 Readme
-- */2 Basic HTML content
-- */1 Basic CSS styling
-- */1 Advanced feature
-- */2 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+10/10
+- 1/1 Readme
+- 2/2 Basic HTML content
+- 1/1 Basic CSS styling
+- 1/1 Advanced feature
+- 2/2 Responsive layout
+- 1/1 Passes validation checks
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
+- Image with descriptive alt text
+- Headings and paragraphs
+- External links
+- Semantic HTML elements
 
 
 (b) CSS features
-
+- Custom colors and background gradients
+- Padding and margins
+- Rounded corners
 
 
 (c) Advanced features
-
+- Navigation bar with links to different sections (works only for smaller screen sizes since I don't have multiple pages)
+- CSS grid and Flexbox layouts
 
 
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
-
+- I only had one error that persisted and that was the html lang error for index.html due to using the Lorem Ipsum Generator to fill in content that I need to go back and fill.
 
 
 4. How long, in hours, did it take you to complete this assignment?
-
+- 20 hours
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
+- I queried generative for design inspiration.
+- I utilized figma dev mode to assist me with the formatting of my style.css.
+- I used Github cheat sheet to navigate GitHub workflow https://training.github.com/downloads/github-git-cheat-sheet/
 
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
+- Consulted my classmate Kayleen for advice on accessibility and design.
 
 
 7. Is there anything special we need to know in order to run your code?
-
+- N/A

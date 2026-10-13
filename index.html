@@ -10,75 +10,113 @@ EMAIL: Jackieg4@uci.edu
   <meta charset="utf-8">
   <meta name="author" content="Jackie Giang">
   <meta name="description" content="Personal portfolio of Jackie Giang, a senior computer science major at UC Irvine.">
-  <!-- you would link to an external stylesheet here! -->
-  <!-- you would also link to Bootstrap here! -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Jackie Giang | Portfolio</title>
 </head>
 
 <body>
   <header>
-    <h1>Jackie Giang</h1>
-    <p>Senior Computer Science Student @UCI</p>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
+
   <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p> I'm a computer Science student at the University of California, Irvine.
-        I'm interested in software development, emerging technologies,
-        and building projects that solve real-world problems.
-      </p>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="section-label">UCI COMPUTER SCIENCE STUDENT</p>
+        <h1>Jackie <span>Giang</span></h1>
+
+        <section id="about">
+          <p class="section-label">About</p>
+          <h2>A little about me.</h2>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est laborum.
+          </p>
+        </section>section>
+      </div>
+
+      <div class="hero-photo">
+        <img src="images/jackie.png" alt="Portrait of Jackie Giang">
+      </div>
     </section>
 
     <section id="projects">
-      <h2>My Projects</h2>
+      <p class="section-label">Projects</p>
+      <h2>Some things I've built.</h2>
 
-      <article>
-        <h3>Room-Showing Scheduler</h3>
-        <p>
-          A web application that helps landlords schedule
-          property viewings. Users can book available time
-          slots and receive confirmation codes, email
-          notifications, and calendar invitations.
-        </p>
-      </article>
-      </article>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Room-Showing Scheduler</h3>
+          <p>
+            A web application that helps landlords schedule
+            property viewings. Users can book available time
+            slots and receive confirmation codes, email
+            notifications, and calendar invitations.
+          </p>
+        </article>
 
-      <section id="skills">
-        <h2>Technical Skills</h2>
+        <article class="project-card">
+          <h3>Project Two</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem
+            placerat in id cursus mi pretium tellus duis convallis tempus leo eu aenean sed diam urna tempor pulvinar
+            vivamus fringilla lacus nec metus bibendum egestas.
+          </p>
+        </article>
 
-        <ul>
-          <li>Python</li>
-          <li>HTML</li>
-          <li>Git</li>
-        </ul>
-      </section>
+        <article class="project-card">
+          <h3>Project Three</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem
+            placerat in id cursus mi pretium tellus duis convallis tempus leo eu aenean sed diam urna tempor pulvinar
+            vivamus fringilla lacus nec metus bibendum egestas.
+          </p>
+        </article>
 
-      <section id="contact">
-        <h2>Contact Me</h2>
+      </div>
+    </section>
 
-        <p>
-          Email:
-          <a href="mailto:jgiang.cs@gmail.com"></a>
-          jgiang.cs@gmail.com
+    <section id="skills">
+      <p class="section-label">Skills</p>
+      <h2>Tools I work with.</h2>
 
-          School Email: 
-          <a href="mailto:jackieg4@uci.edu"></a>
-          jackieg4@uci.edu
-        </p>
+      <ul class="skills-grid">
+        <li>Python</li>
+        <li>HTML</li>
+        <li>Git</li>
+      </ul>
+    </section>
 
-        <p>
-          <a href="https://github.com/jackieg-cs">
-            My GitHub
-          </a>
-        </p>
-      </section>
+    <section id="contact">
+      <p class="section-label">Contact</p>
+      <h2>Let's connect.</h2>
+
+      <div class="contact-grid">
+        <a href="mailto:jgiang.cs@gmail.com">Personal Email</a>
+        <a href="mailto:jackieg4@uci.edu">School Email</a>
+        <a href="https://github.com/jackieg-cs">GitHub</a>
+      </div>
     </section>
   </main>
-  <p>
-    <a href="http://validator.w3.org/check?uri=referer">
-      W3C validator
+
+  <footer>
+    <a href="https://validator.w3.org/check?uri=referer">
+      W3C Validator
     </a>
-  </p>
+  </footer>
 </body>
 
 </html>
